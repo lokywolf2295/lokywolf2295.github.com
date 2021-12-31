@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* en el selector universal le quitamos el espaciado de todos lo elementos tanto de margen como de padding*/
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/cataratas-del-iguazu.jpg"); /* con esto colocamos una imagen como fondo */
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.hero h1{
+    color: red;
+    padding-top: 150px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.row{
+    padding: 40px;
+}
+
+.row p{
+    color: gray;
+    font-size: 20px;
+}
+
+.parallax{
+    padding: 60px 140px;
+    background-image: url(../img/parapente.png),
+                      url(../img/mountain-landscape.jpg); /* para que coloquemos multiples imagenes solo debemos separar las url por comas */
+    background-size: initial, cover; 
+    background-repeat: no-repeat, no-repeat;
+    background-position: 45px 80px, center; /* separamos 40 en la X, y 60 en la Y */     
+    background-attachment: scroll, fixed; /* para que la imagen se mueva con el scroll usamos esa funcion */
+}
+.parallax p{
+    background-color: rgba(255, 255, 255, 0.60);
+    color: tomato;
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+    font-style: italic;
+}
