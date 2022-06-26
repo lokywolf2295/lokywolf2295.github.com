@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-size: 18px;
+    color: #4e4e4e;
+}
+
+h1 {
+    font-size: 28px;
+    color: #167F92;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Enlaces como tarjetas */
+
+a {
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.card {
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px lightgrey;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 6px lightgrey;
+}
+
+.card p {
+    text-align: center;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbs span {
+    color: #167F92;
+}
+
+.breadcrumbs a:hover {
+    color: #167F92;
+}
