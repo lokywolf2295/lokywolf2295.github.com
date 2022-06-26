@@ -1,0 +1,300 @@
+*{
+	border:0;
+	margin:0;
+	padding:50;
+}
+
+
+
+#contenedorHeaderBanner {
+	padding: 3%;
+	background-color: black;
+	color: white;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	display: flex;
+}
+
+header h1{
+	color: gray;
+	font-size: 50px;
+	text-align: center;	
+	vertical-align: middle;
+	float: left;
+}
+
+#letraEspecial {
+	color: yellow;
+	font-size: 50px;
+}
+
+#magazine {
+	width: 50%;
+	height: 40px;
+	float: left;
+}
+
+#magazine p {
+	width: 100%;
+	height: 19px;
+	float: left;
+	text-align: left;
+	color:#2C3E50;
+	padding-left: 19%;
+	}
+
+#menu {
+	width: 50%;
+	height: 40px;
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: none;
+}
+
+ul {
+	color: gray;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	width: 100%;
+	float: righ;
+}
+
+li {
+	color: #2C3E50;
+	list-style: none;
+	padding: 2%;
+	
+}
+
+#navegadores{
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+
+#navegadores:hover{
+	text-decoration: overline;
+	color: yellow;
+}
+
+#banner {
+	padding-top: 3%;
+}
+
+#imgBanner {
+	width: 100%;
+	border: 10px solid #F2F3F4;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	border-bottom: 30px solid #F2F3F4;
+}
+
+#containerBody{
+	padding-top: 20px;
+	display: flex;
+	height: 100vh;
+	padding-bottom: 30px;
+}
+
+#noticias {
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: gray;
+}
+#sponsors {
+	width: 30%;
+	padding-right: 30px;
+	color: gray;
+}
+#noticias hr{
+	width: 96%;
+	border-top: solid 1px gray;
+}
+#sponsors hr{
+	border-top: solid 1px gray;
+}
+
+#texto hr{
+	width: 100%;
+	border-top-style: dashed;
+	border-top-width: 1px;
+}
+
+#containerNoticias {
+	display: flex;
+	height: 50%;
+}
+
+#imgMasajes {
+	width: 100%;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#imgVarias {
+	width: 50%;
+	height: 100px;
+	padding: 5px;
+}
+
+
+#imgPegadas {
+	display: flex;
+}
+
+#imagenSubArticulo{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#texto{
+	padding-left: 30px;
+}
+
+#containerSubArticulo {
+	display: flex;
+	width: 95%;
+	
+}
+
+#noticia1 {
+	width: 30%;
+	padding: 1%;
+}
+#noticia2 {
+	width: 30%;
+	padding: 1%;
+}
+#noticia3 {
+	width: 30%;
+	padding: 1%;
+}
+
+#imgArticulos {
+	width: 100%;
+	height: 170px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#puntitos{
+	border-bottom-style: dotted;
+	border-bottom-width: 4px;
+}
+
+#mas {
+	color: #7B241C;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+}
+
+#maquillarse{
+	color: #7B241C;
+}
+
+#negrita{
+	font-weight: bold;
+}
+
+#nombre{
+	color: yellow;
+}
+
+#link1 {
+	width: 100%;
+	color: #7B241C;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+	float: right;
+}
+
+#link2 {
+	width: 100%;
+	color: #7B241C;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+	float: right;
+}
+
+#Moda puntitos{
+	width: 100%
+	color: white;
+}
+
+#desripcion {
+	text-align: justify;
+}
+
+#footer {
+	margin-top: 10%;
+	color: white;
+	display: flex;
+	background-color: black;
+	height: 50vh;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#containerFooter {
+	display: flex;
+	padding-top: 20px;
+}
+
+#horoscopoFooter {
+	display: flex;
+	padding-top: 20px;
+}
+
+#contactoFooter {
+	display: flex;
+	padding-top: 20px;
+}
+
+#containerFooter > p {
+	font-size: 15px;
+}
+
+#textoFooter{
+	padding-left: 10px;
+}
+
+#ImgFooter {
+	height: 70px;
+	
+}
+
+#containerImgFooter {
+	display: flex;
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#horoscopoImgFooter {
+	display: flex;
+}
+
+#containerImgFooter p{
+	padding-left: 20px;
+}
+
+#Moda {
+	width: 40%;
+	padding-right: 20px;
+}
+
+#Horoscopo {
+	width: 30%;
+	padding-right: 20px;
+}
+
+#Contacto {
+	width: 27%;
+}
