@@ -184,21 +184,10 @@ body {
     font-weight: 300;
 }
 
-.contact_Info.language .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #081921;
-    display: block;
-    margin-top: 5px;
-}
-
-.contact_Info.language .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
+.contact_Info .level {
+    color: #03a9f4;
+    font-weight: 500;
+    margin: 0px 20px;
 }
 
 .container .right_Side {
@@ -209,7 +198,7 @@ body {
 }
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .about:last-child {
@@ -277,19 +266,12 @@ p {
     font-weight: 500;
 }
 
-.skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
-}
 
-.skills .box .percent div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
+
+.skills .box .percent{
+    font-weight: 500;
+    color: #2a7da2;
+    margin: 0px 50px;
 }
 
 .interest ul{
@@ -338,11 +320,7 @@ p {
 
 @media (max-width: 400px) {
     .mail {
-        font-size: 12px;
+        font-size: 15px;
     }
 
-    .interest ul li {
-        font-size: 14px;
-
-    }
 }
