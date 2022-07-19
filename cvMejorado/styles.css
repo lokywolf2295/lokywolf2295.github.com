@@ -310,10 +310,6 @@ p {
     .about .box .experiency{
         margin-bottom: 5px;
     } 
-
-    .skills .box{
-        grid-template-columns: repeat(1,1fr);
-    }
 }
 
 @media (max-width: 400px) {
